@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
 
-import Clouds from "./ui/Clouds";
+import Clouds from "@/components/Clouds";
 
 import profilepic from "@/assets/profilepic.png";
 
@@ -12,7 +12,7 @@ function Hero() {
   const parallaxRef = useRef(null);
 
   return (
-    <div className="relative overflow-x-clip min-h-screen pt-12 flex items-center justify-center bg-[linear-gradient(180deg,#557bad,#8baac4,#5d97c9,#000)]">
+    <div className="relative overflow-x-clip min-h-screen pt-12 flex items-center justify-center bg-[linear-gradient(180deg,#557bad,#8baac4,#5d97c9,#0a0a0a)]">
       <div
         className="container mx-auto space-y-6 flex items-center justify-center flex-col text-center"
         ref={parallaxRef}

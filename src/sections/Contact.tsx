@@ -4,11 +4,11 @@ function Contact() {
       <div className="flex items-center justify-between flex-col md:flex-row">
         <div>
           <h2 className="md:text-7xl text-4xl font-bold mb-10 text-white/50">
-            Get in <span className="text-gray-400">touch</span>
+            Get in <span className="text-sky-300">touch</span>
           </h2>
           <a
             href="mailto:john@doe.com"
-            className="md:text-7xl text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
+            className="md:text-7xl text-4xl font-semibold text-white underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-sky-300 transition duration-300"
           >
             john@doe.com
           </a>
@@ -18,7 +18,7 @@ function Contact() {
             <p className="text-lg mb-1">Phone</p>
             <a
               href="tel:+990788979999"
-              className="text-2xl font-semibold underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-gray-200 transition duration-300"
+              className="text-2xl font-semibold underline decoration-gray-400 decoration-2 underline-offset-4 hover:decoration-sky-300 transition duration-300"
             >
               +99 (0) 78 897 9999
             </a>
@@ -41,7 +41,7 @@ function Contact() {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-gray-300 mb-2"
+              className="block text-sm font-medium text-sky-300 mb-2"
             >
               Email
             </label>
@@ -51,13 +51,13 @@ function Contact() {
               name="email"
               placeholder="your@email.com"
               required
-              className="w-full px-4 py-2 bg-transparent border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
+              className="w-full px-4 py-2 bg-transparent border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-200"
             />
           </div>
           <div>
             <label
               htmlFor="subject"
-              className="block text-sm font-medium text-gray-300 mb-2"
+              className="block text-sm font-medium text-sky-300 mb-2"
             >
               Subject
             </label>
@@ -67,14 +67,14 @@ function Contact() {
               name="subject"
               placeholder="What is this about?"
               required
-              className="w-full px-4 py-2 bg-transparent border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200"
+              className="w-full px-4 py-2 bg-transparent border border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-200"
             />
           </div>
         </div>
         <div className="w-full md:w-[48%] px-12 mt-6 md:mt-0">
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-gray-300 mb-2"
+            className="block text-sm font-medium text-sky-300 mb-2"
           >
             Message
           </label>
@@ -84,13 +84,13 @@ function Contact() {
             rows={8}
             required
             placeholder="Your message here..."
-            className="w-full px-4 py-3 bg-transparent border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-200 border"
+            className="w-full px-4 py-3 bg-transparent border-white/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-sky-200 border"
           />
         </div>
         <div className="w-full md:w-[48%] px-12 mt-6 md:mt-4 md:text-right">
           <button
             type="submit"
-            className="inline-block w-16 h-16 bg-transparent border border-gray-400 text-gray-400 font-medium rounded-lg hover:bg-gray-700 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
+            className="inline-block w-16 h-16 bg-transparent border border-sky-400 text-sky-400 font-medium rounded-lg hover:bg-sky-700 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
           >
             →
           </button>

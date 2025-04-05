@@ -38,14 +38,19 @@ const services = [
 
 function Services() {
   return (
-    <div className="py-20 text-white container mx-auto flex flex-col md:flex-row">
+    <div
+      id="services"
+      className="py-20 text-white container mx-auto flex flex-col md:flex-row"
+    >
       <div className="w-1/4 pr-8">
-        <h2 className="text-6xl font-extrabold sticky top-20">SERVICES</h2>
+        <h2 className="text-6xl text-sky-300 font-extrabold sticky top-20">
+          SERVICES
+        </h2>
       </div>
       <div className="w-3/4">
         {services.map((service) => (
           <div key={service.id} className="mb-16 flex items-start">
-            <div className="text-gray-400 font-bold text-5xl mr-6">
+            <div className="text-sky-300 font-bold text-5xl mr-6">
               {service.id}
             </div>
             <div>

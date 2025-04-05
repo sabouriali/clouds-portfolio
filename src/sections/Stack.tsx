@@ -9,7 +9,6 @@ import {
   SiMongodb,
   SiDocker,
 } from "react-icons/si";
-import { FaLemon } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -18,37 +17,37 @@ const stackItems = [
     id: 1,
     name: "Framer",
     icon: <SiFramer size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
   {
     id: 2,
     name: "Figma",
     icon: <SiFigma size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
   {
     id: 3,
     name: "React",
     icon: <SiReact size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
   {
     id: 4,
     name: "Node.js",
     icon: <SiNodedotjs size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
   {
     id: 5,
     name: "MongoDB",
     icon: <SiMongodb size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
   {
     id: 6,
     name: "Docker",
     icon: <SiDocker size={100} />,
-    color: "text-green-200",
+    color: "text-sky-300",
   },
 ];
 

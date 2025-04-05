@@ -69,7 +69,7 @@ function Portfolio() {
           className="border border-white/20 flex flex-col md:flex-row text-white rounded-3xl bg-gradient-to-r from-[#0d0d03] via-[#303131] to-[#212122] p-12 justify-between items-start mb-24 w-[300px] md:w-[1100px] sticky top-28 space-x-4 mx-auto"
         >
           <div className="space-y-6">
-            <p className="text-gray-200 text-sm">{project.category}</p>
+            <p className="text-sky-300 text-lg font-bold">{project.category}</p>
             <h2 className="text-2xl font-bold md:text-4xl">{project.title}</h2>
             <ul className="space-y-2">
               {project.bulletPoints.map((point, index) => (

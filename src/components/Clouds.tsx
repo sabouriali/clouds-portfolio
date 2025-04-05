@@ -12,7 +12,7 @@ import cloud5 from "@/assets/cloud5.png";
 import Circles from "./Circles";
 
 interface CloudsProps {
-  parallaxRef: RefObject<HTMLDivElement>;
+  parallaxRef: RefObject<HTMLDivElement | null>;
 }
 
 function Clouds({ parallaxRef }: CloudsProps) {
