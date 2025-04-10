@@ -32,7 +32,7 @@ function Hero() {
           className="text-7xl text-white inline-block font-extrabold"
         />
         <p className="text-blue-200 text-2xl font-semibold max-w-[500px]">
-          My name is John Doe. I'm a full-stack developer with 5+ years
+          My name is John Doe. I&#39;m a full-stack developer with 5+ years
           experience.
         </p>
         <Clouds parallaxRef={parallaxRef} />
