@@ -20,7 +20,7 @@ function Footer() {
       </div>
       <div className="relative z-10 text-center mt-8">
         <h1 className="hidden md:block md:text-[12rem] lg:text-[15rem] font-bold text-white/10">
-          JOHN DOE
+          JOHNDOE
         </h1>
         <h1 className="md:hidden relative mb-12 text-8xl font-bold text-white/10">
           JOHN DOE
